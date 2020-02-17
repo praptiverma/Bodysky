@@ -1,0 +1,249 @@
+
+   .container
+   {
+         width:1440px;
+        
+         height: 1024px;
+         background-color: #ffffff;
+
+   }
+   .First_Page{
+         /* width:1440px; */
+         width: 1140px;
+        height: 1024px;
+
+   }
+   .row-1{
+         height:256px;
+   }
+   .row-2{
+         width:537px;
+         height:165px;
+   }
+
+
+   .row-2-2{
+      width: 537px;
+      height: 165px;
+      font-family: Graphik-Black;
+      font-size: 48px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 55px;
+      letter-spacing: normal;
+      color: #1d1d1d;
+      margin-top:0px;
+   }
+   .row-3{
+         height: 48px;
+   }
+   .row-4{
+         height: 111px;
+   }
+   .row-5{
+         height: 429px;
+         margin-top: 191px;;
+   }
+   .row-3-2{
+      width: 442px;
+      height: 48px;
+      font-family: Graphik-Regular;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 24px;
+      letter-spacing: normal;
+      color: #1d1d1d;
+      margin-top:0px;
+   }
+   .col-1{
+         min-width: 150px;
+
+         
+   }
+   .col-2{
+         width:537px;
+         
+   }
+   .col-3{
+      background-image: url('../assets/images/bg_path.svg');
+      /* margin-top: 74px; */
+      border:1px;
+      background-repeat: no-repeat;
+      /* background-position: center; */
+      
+
+
+   }
+   .lock_icon 
+  {
+      width: 14px;
+      height: 21px;
+      object-fit: contain;
+      background-color: #ffffff;
+  }
+  .Log-ind{
+      width: 50px;
+      height: 14px;
+      font-family: Graphik;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+  }
+
+  .For-trnere-Copy-3 {
+      width: 80px;
+      height: 28px;
+      font-family: Graphik;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+  .For-klienter {
+      width: 77px;
+      height: 28px;
+      font-family: Graphik;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+   .Seneste-trnerprofil {
+      width: 149px;
+      height: 14px;
+      font-family: Graphik;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #000000;
+    }
+/******************log ind ******************/
+   .Log-ind{
+   
+      font-family: Graphik;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+   }
+
+   
+   /*********************menu items*********************************/
+   .menu_items{
+         align-items: center;
+         margin-left: 40px;
+         color: white;
+         margin-top: 74px;
+         font-family: Graphik-Semibold;
+         font-size:14px;
+         line-height: 28px;
+
+
+   }
+   li{
+         margin-left: 40px;
+   }
+   
+   ul > li {
+      display: inline-block;
+     
+      zoom:1;
+      *display:inline;
+      margin-left: 10px;;
+      
+  }
+  /****************************************************/
+/**************logoimage******************************/
+   .logoImage 
+   {
+         width:155px;
+         height:32px;
+         margin-top: 71px;
+         align-content: left;
+         margin-bottom:153px;
+   }
+
+   /***************************************************/
+
+   /*************************************************/
+   .playstore_image,.apstore_image{
+      margin-top: 64px;
+      width: 161px;
+      height:46px; 
+      float: left;
+      /* display: inline; */
+      margin-left:13px;
+      }
+      .playstore_image{
+            margin-left:13px;
+      }
+      .apstore_image{
+            margin-left: 0px;
+      }
+ /**********************************************************/
+   
+ 
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* properties of product shots image */
+.productshotsImage{
+      width: 785px;
+      height: 916px;
+      object-fit: contain;
+}
+
+/*********************************************************/
+
+
+
+p{
+      height: 14px;
+}
+
+/*********************setting the trainer section *****************************/
+.trainerimage{
+      height:80px;
+      width: 80px;
+      border-radius: 50%;
+      box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
+}
+
+.trainerSection{
+       
+      font-size:10px;
+      letter-spacing: 0px;
+      letter-spacing: 0px;
+      color: black;
+    
+      margin-left: 0px;
+     
+    
+}
+.trainers{
+      display:inline;
+      margin-left: 0px;
+      font-family: Graphik;
+
+      
+}
+/*****************************************/

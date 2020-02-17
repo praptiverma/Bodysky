@@ -1,0 +1,80 @@
+<div class='container'>
+  <table class='First_Page'>
+   <tr class='row-1'>
+    <td class='col-1' rowspan='5'></td>
+    <td class='col-2'>
+      <img class='logoImage' src='../assets/images/logo.svg'>
+    </td>
+    <td class='col-3' rowspan="5">
+
+      <div class='menu_items'>
+
+        <ul >
+          <li > <a class='For-trnere-Copy-3'> For traener</a></li>
+          <li > <a class='For-klienter'> For klienter</a></li>
+          <li> <img class='icon' src='../assets/images/lock_icon.svg'><a  class='Log-ind'> log ind</a> </li>
+          <li ><button class='button '>Prov gratis</button></li>
+      </ul> 
+       
+       </div>
+      <div class="">
+        <img  class ='productshotsImage' src='../assets/images/productshots.png'>
+      </div>
+    </td>
+    
+   </tr>
+   <tr class=row-2>
+    
+    <td >
+      <p class='row-2-2' >Det er tid til at tænke personlig træning på en ny made</p>
+      </td>
+   
+   </tr>
+   <tr class=row-3>
+   
+    <td>
+      <p class='row-3-2'>En app der kan alt det ,du har brug for,til at styre din personlig træning  </p>
+    </td>
+   
+   </tr>
+   
+   <tr class='row-4'>
+    
+     <td>
+      <div >
+        <img class='apstore_image' src='../assets/images/app_store.png'>
+        <img class='playstore_image' src='../assets/images/play_store.png'>
+      </div>
+     </td>
+    
+   </tr>
+   <tr class='row-5'>
+
+<td> 
+  <!-- to display the trainer section -->
+   <div class='trainerSection'>   
+    <p class='Seneste-trnerprofil '>Seneste Traenerprofiler<br><br> </p>
+
+    <div> 
+     <ul  class ='trainers' *ngFor='let trainer of  profiles |slice :0: 3'>
+       <li align='center'>           <img  class ='trainerimage' *ngIf='imageToShow' [src]='trainer.image'  />
+         <br> <br>{{trainer.name}} 
+        </li>
+      
+     </ul> 
+  
+
+
+
+     <img class='arrow' src='../assets/images/arrow_nav.svg'>
+      
+    </div>
+</div>  
+
+
+</td>
+
+   </tr>
+  </table>
+  </div>
+
